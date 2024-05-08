@@ -1,0 +1,22 @@
+@import "../../../assets/globalStyles.scss";
+
+.parallax-reservation {
+  position: relative;
+
+    .parallax-reservation__title-italics {
+      user-select: none;
+      font-size: calc(10vw + 5rem);
+      text-shadow: 1px 1px 2px black;
+    }
+    .parallax-reservation__title {
+      text-shadow: 1px 1px 2px black;
+    }
+    .nav-link {
+      position: absolute;
+      left: 50%;
+      bottom: 20%;
+      transform: translate(-50%, -50%);
+      z-index: 55555555;
+    }
+  
+}
